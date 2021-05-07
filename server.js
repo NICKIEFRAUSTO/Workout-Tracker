@@ -22,5 +22,5 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/FitnessTrackerd
 
 // app.use(require("./routes/apiRoutes"));
 app.use(require("./routes/frontendRoutes"));
-
+app.use(require("./routes/apiRoutes"));
 app.listen(PORT, () => console.log('Now listening'));

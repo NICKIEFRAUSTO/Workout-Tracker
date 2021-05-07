@@ -1,7 +1,7 @@
 let mongoose = require("mongoose");
 let Workout = require("../models/workout");
 
-mongoose.connect("mongodb://localhost/workout", {
+mongoose.connect("mongodb://localhost/FitnessTrackerdb", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
